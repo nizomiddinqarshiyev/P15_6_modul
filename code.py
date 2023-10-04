@@ -66,7 +66,7 @@ def get_temperature(lat, lon):
 def get_address_using_location(lat, lon):
     url = "https://geocode-maps.yandex.ru/1.x/"
     params = {
-        "apikey": "f3d55107-23fa-41bf-88c4-51b44aaf6781",
+        "apikey": "<api_key>",
         "geocode": f"{lon},{lat}",
         "lang": "en",
         "format": "json"
